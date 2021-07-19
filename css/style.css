@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*inicio da pagina*/
+body {
+    background: rgb(174, 169, 182);
+    font-family: 'Arial', Times, serif;
+}
+
+header {
+    background-color: #000000;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px
+}
+
+header .nome {
+    padding: 14px;
+    color: #fff;
+    font-family: 'Arial', Times;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #FFF;
+}
+
+
+/*Meus Projetos*/
+main{
+    margin: auto;
+    width: 70%;
+}
+
+main h1{
+    font-size: 2.4rem;
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+    font-weight: 100;
+}
+
+.projeto{
+    display: flex;
+}
+
+.projeto a{
+    margin: 2rem auto;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    font-variant: small-caps;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+}
+
+.projeto img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+/*Contato*/
+.contato h1 {
+    font-variant: small-caps;
+    font-size: 2.4rem;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 8px;
+}
+
+.contato {
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #000000;
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+    color: #fff;
+}
+
+p i{
+    margin: 10px;
+}
+
+a i {
+    margin: 5px 5px;
+    font-size:60px;
+    color:rgb(255, 255, 255);
+}
