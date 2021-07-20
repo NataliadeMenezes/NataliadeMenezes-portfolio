@@ -3,10 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /*inicio da pagina*/
 body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     background: rgb(174, 169, 182);
     font-family: 'Arial', Times, serif;
 }
@@ -17,6 +22,7 @@ header {
     z-index: 2;
     top: 0;
     left: 0;
+    padding: 1.5rem;
 }
 
 header .container {
@@ -24,11 +30,9 @@ header .container {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 20px
 }
 
 header .nome {
-    padding: 14px;
     color: #fff;
     font-family: 'Arial', Times;
     font-size: 18px;
@@ -36,7 +40,6 @@ header .nome {
 }
 
 header nav a {
-    text-decoration: none;
     color: #AAA;
     margin-right: 10px;
 }
@@ -45,11 +48,74 @@ header nav a:hover {
     color: #FFF;
 }
 
+/*Sobre Mim*/
+
+.curriculo {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.curriculo h1 {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.curriculo h2 {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+}
+
+.curriculo a {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.curriculo button {
+    background-color: #000000;
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.curriculo i {
+    margin-left: .5rem;
+}
+
+.container .sobre {  
+    background-color: #000000;
+    padding: 100px 150px 100px 150px;
+}
+
+.sobre .sobre-mim{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.sobre img {
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.sobre h1 {
+    color: #fff;
+    text-align: center;
+    
+}
+
+.sobre p {
+    color: #fff;
+    margin-right: 25px;
+    margin-left: 30px;
+    letter-spacing: .05rem;
+}
 
 /*Meus Projetos*/
 main{
     margin: auto;
-    width: 70%;
+    width: fit-content;
+    
 }
 
 main h1{
@@ -58,31 +124,48 @@ main h1{
     text-align: center;
     color: #fff;
     font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
-.projeto{
+main .projeto {
+    background: #272525cb;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin: 20px;
+    border-radius: 5%;
+}
+
+.projetos {
     display: flex;
+    align-items: center;
+    justify-content: start;
 }
 
-.projeto a{
-    margin: 2rem auto;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-bottom: .5rem;
-    font-size: 1rem;
+main .projeto h2 {
     font-variant: small-caps;
-    letter-spacing: .1rem;
-    border-radius: 1rem;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 5px;
 }
 
-.projeto img{
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
+main .projeto img {
+    border-radius: 5% 5% 0 0;
+}
+
+main .projeto p {
+    background: #181717e8;
+    padding: 8px;
+    margin: 10px 0 10px 0;
 }
 
 /*Contato*/
+.contato {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .contato h1 {
     font-variant: small-caps;
     font-size: 2.4rem;
@@ -92,7 +175,18 @@ main h1{
     margin-bottom: 8px;
 }
 
-.contato {
+.contato p {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.contato p i{
+    margin: 10px;
+}
+
+
+footer {
     margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -100,16 +194,13 @@ main h1{
     text-align: center;
 }
 
-p {
-    font-size: 17px;
+footer p{
+    font-size: 20px;
+    margin-bottom: 15px;
     color: #fff;
 }
 
-p i{
-    margin: 10px;
-}
-
-a i {
+footer i {
     margin: 5px 5px;
     font-size:60px;
     color:rgb(255, 255, 255);
