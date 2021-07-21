@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: rgb(174, 169, 182)ff;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container .sobre {
+        padding: 10px;
+        margin: 2px;
+        
+    }
+
+    .sobre-mim img{
+        width: 100px;
+        border-radius: 0;
+        margin: auto;
+    }
+
+    main .projetos {
+        display: block;
+    }
+}
