@@ -8,7 +8,7 @@
     
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1100px) {
     body {
         background-color: rgb(174, 169, 182)ff;
     }
@@ -18,16 +18,15 @@
     }
 
     .container .sobre {
+        display: block;
         padding: 10px;
         margin: 2px;
-        
     }
 
-    .sobre-mim img{
-        width: 100px;
-        border-radius: 0;
-        margin: auto;
+    .sobre .sobre-mim {
+        display: block;
     }
+    
 
     main .projetos {
         display: block;
