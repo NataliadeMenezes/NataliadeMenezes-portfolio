@@ -188,8 +188,11 @@ section .contato p i{
     margin: 10px;
 }
 
-section .redes i {
+section .redes {
     text-align: center;
+}
+
+section .redes i {
     margin: 5px 5px;
     font-size:60px;
     color:rgb(255, 255, 255);
