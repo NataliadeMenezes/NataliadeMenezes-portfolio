@@ -99,9 +99,9 @@ header nav a:hover {
 }
 
 .sobre h1 {
-    color: #fff;
     text-align: center;
     font-size: 2.4rem;
+    color: rgb(255, 255, 255);
     font-variant: small-caps;
     font-weight: 100;
 }
@@ -164,12 +164,12 @@ main .projeto p {
 }
 
 /*Contato*/
-.contato {
+section .contatos {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.contato h1 {
+section .contato h1 {
     font-variant: small-caps;
     font-size: 2.4rem;
     color: rgb(2, 2, 2);
@@ -178,17 +178,18 @@ main .projeto p {
     margin-bottom: 8px;
 }
 
-.contato p {
+section .contato p {
     text-align: center;
     font-size: 18px;
     color: rgb(2, 2, 2);
 }
 
-.contato p i{
+section .contato p i{
     margin: 10px;
 }
 
-.contato .redes i {
+section .redes i {
+    text-align: center;
     margin: 5px 5px;
     font-size:60px;
     color:rgb(255, 255, 255);
