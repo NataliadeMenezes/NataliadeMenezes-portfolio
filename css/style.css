@@ -101,7 +101,9 @@ header nav a:hover {
 .sobre h1 {
     color: #fff;
     text-align: center;
-    
+    font-size: 2.4rem;
+    font-variant: small-caps;
+    font-weight: 100;
 }
 
 .sobre p {
@@ -109,7 +111,7 @@ header nav a:hover {
     font-size: 18px;
     margin-right: 25px;
     margin-left: 30px;
-    letter-spacing: .05rem;
+    letter-spacing: .07rem;
 }
 
 /*Meus Projetos*/
@@ -186,6 +188,12 @@ main .projeto p {
     margin: 10px;
 }
 
+.redes i {
+    margin: 5px 5px;
+    font-size:60px;
+    color:rgb(255, 255, 255);
+}
+
 
 footer {
     margin-top: 30px;
@@ -199,10 +207,4 @@ footer p{
     font-size: 20px;
     margin-bottom: 15px;
     color: #fff;
-}
-
-footer i {
-    margin: 5px 5px;
-    font-size:60px;
-    color:rgb(255, 255, 255);
 }
