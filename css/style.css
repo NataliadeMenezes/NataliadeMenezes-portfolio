@@ -167,6 +167,7 @@ main .projeto p {
 section .contatos {
     margin-top: 100px;
     margin-bottom: 100px;
+    text-align: center;
 }
 
 section .contato h1 {
@@ -188,14 +189,10 @@ section .contato p i{
     margin: 10px;
 }
 
-section .redes {
-    text-align: center;
-}
-
 section .redes i {
     margin: 5px 5px;
     font-size:60px;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
 
 
